@@ -1,10 +1,8 @@
 from django.urls import path
 from . import views
-
-
-urlpatterns = [
-    path('', views.home, name='blog-home'),
-    path('about/', views.about, name='blog-about'),
-
+# multiple liberary of views that why we use from.import views ass compare to the import views
+# /product(root)
+urlpatterns =[
+    path('', views.index),
 
 ]
